@@ -1,0 +1,100 @@
+/*Gerais*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: black;
+    font-size: 14px;
+}
+
+/* Barra de navagação*/
+
+header, .navbar{
+    background-color: #337ab7;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+    margin: 0 0 0 105px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.navbar-brand:hover{
+    color:#fff;
+}
+
+#navbar-links a{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+/*Objetivo do Projeto*/
+
+#about-area{
+    background-color: #00BFFF;
+}
+
+.main-title{
+    color: black;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.main-p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*cadastro*/ 
+.form{
+    margin: 5px;
+}
+#cadastro{
+    background-color:#337ab7;
+}
+.bot{
+    margin: 8% 0 0 50%;
+}
+/*formulario*/ 
+#formulario{
+    background-color: #337ab7;
+}
+
+.bot{
+    margin: 10% 25% 0 25%;
+}
+/*footer*/
+#copy-area {
+    background-color: #337ab7;
+}
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
