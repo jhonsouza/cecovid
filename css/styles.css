@@ -28,7 +28,7 @@ header, .navbar{
 
 #logo{
     width: 75px;
-    margin: 0 0 0 15%;
+    margin: 0 0 0 5%;
 }
 
 .navbar-brand {
@@ -99,7 +99,20 @@ header, .navbar{
         margin: 15px 25px 15px 25px;
     }
 
-    .value{
-        font-size: 15px;
+}
+
+@media(max-width: 412px){
+
+    .form{
+        margin: 15px 25px 15px 25px;
     }
+
+}
+
+@media(max-width: 414px){
+
+    .form{
+        margin: 15px 25px 15px 25px;
+    }
+
 }
