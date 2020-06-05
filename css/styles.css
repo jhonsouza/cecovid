@@ -7,16 +7,19 @@ body{
 .row {
     margin: 0;
 }
-
-.container{
-    padding: -10px -10px -10px -10px;
+.container-fluid{
+    background-color: #337ab7;
+    padding-left: -10%;
 }
+/*.container{
+    padding: -10px -10px -10px -10px;
+}*/
 
 
 /* Barra de navagação*/
 
 header, .navbar{
-    background-color: #337ab7;
+    background-color: #4b96d8;
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
 }
@@ -59,6 +62,7 @@ header, .navbar{
 
 .main-title{
     color: black;
+    padding: 65px;
     margin: 0 0 65px 0;
     font-size: 40px;
     text-align: center;
@@ -76,6 +80,7 @@ header, .navbar{
 }
 /*formulario*/ 
 #formulario{
+    padding: 10%;
     background-color: #337ab7;
 }
 
