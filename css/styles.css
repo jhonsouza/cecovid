@@ -1,6 +1,7 @@
 /*Gerais*/
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
 }
 
 .row {
@@ -11,10 +12,6 @@ body{
     padding: 70px 0;
 }
 
-p, li{
-    color: black;
-    font-size: 14px;
-}
 
 /* Barra de navagação*/
 
@@ -66,11 +63,6 @@ header, .navbar{
     font-size: 40px;
     text-align: center;
 }
-.main-p{
-    color: black;
-    font-size: 20px;
-    text-align: center;
-}
 
 /*cadastro*/ 
 .form{
@@ -97,4 +89,18 @@ header, .navbar{
 #copy-area .container{
     padding: 10px 0;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+
+@media(max-width: 412px){
+
+    .form{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .value{
+        font-size: 15px;
+    }
 }
