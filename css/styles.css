@@ -9,7 +9,6 @@ body{
 }
 .container-fluid{
     background-color: #337ab7;
-    padding-left: -10%;
 }
 /*.container{
     padding: -10px -10px -10px -10px;
@@ -109,7 +108,7 @@ header, .navbar{
 @media(max-width: 412px){
 
     .form{
-        margin: 15px 25px 15px 25px;
+        margin: 5px 5px 5px 5px;
     }
 
 }
