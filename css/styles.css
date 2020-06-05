@@ -109,6 +109,9 @@ header, .navbar{
     .form{
         margin: 15px 25px 15px 25px;
     }
+    .bot{
+        margin: 50px 0 0 30%;
+    }
 
 }
 
@@ -118,8 +121,8 @@ header, .navbar{
         margin: 15px 25px 15px 25px;
     }
 
-    .main-title{
-        font-size: 30px;
+    .bot{
+        margin: 50px 0 0 30%;
     }
 
 }
@@ -128,6 +131,9 @@ header, .navbar{
 
     .form{
         margin: 15px 25px 15px 25px;
+    }
+    .bot{
+        margin: 50px 0 0 30%;
     }
 
 }
