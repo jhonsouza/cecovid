@@ -79,7 +79,6 @@ header, .navbar{
 }
 /*formulario*/ 
 #formulario{
-    padding: 10%;
     background-color: #337ab7;
 }
 
@@ -109,6 +108,10 @@ header, .navbar{
 
     .form{
         margin: 5px 5px 5px 5px;
+    }
+
+    .main-title{
+        font-size: 30px;
     }
 
 }
