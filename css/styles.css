@@ -9,10 +9,12 @@ body{
 }
 .container-fluid{
     background-color: #337ab7;
+    padding-bottom: 1%;
+
 }
-/*.container{
+.container{
     padding: -10px -10px -10px -10px;
-}*/
+}
 
 
 /* Barra de navagação*/
@@ -74,28 +76,34 @@ header, .navbar{
 #cadastro{
     background-color:#337ab7;
 }
-.bot{
-    margin: 8% 0 0 50%;
-}
+
 /*formulario*/ 
 #formulario{
+
     background-color: #337ab7;
 }
 
 .bot{
-    margin: 10% 25% 0 25%;
+    margin: 50px 0 0 85%;
+    
 }
 /*footer*/
 #copy-area {
+    padding: 10px;
     background-color: #4b96d8;
 }
 #copy-area .container{
-    padding: 0;
+    padding: 10px;
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
 }
-
+.link{
+    color: black;
+}
+.link:hover{
+    color: black;
+}
 @media(max-width: 375px){
 
     .form{
